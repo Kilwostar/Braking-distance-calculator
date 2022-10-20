@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BrakingDistanceCalculator {
     double S;
 
-    public double brakingDistance(int Speed, int Condotion, int TypeOfRoad) {
+    public double brakingDistanceCalculator(int Speed, int Condotion, int TypeOfRoad) {
         if (Condotion == 1) {
             switch (TypeOfRoad) {
                 case 1:
